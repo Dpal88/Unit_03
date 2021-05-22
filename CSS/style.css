@@ -24,14 +24,14 @@ h1 {
     
 }
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #4682b4;
     
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .signup-container {
@@ -40,12 +40,12 @@ p {
 }
 
 .line1 {
-    border-top: 5px solid #000;
+    border-top: 4px solid #000;
     padding-bottom: 0px;
 }
 
 .line2 {
-    border-top: 4px solid darkgray;
+    border-top: 2px solid darkgray;
     padding-top: 0;
 }
 
@@ -171,18 +171,24 @@ textarea::placeholder {
 }
 
 .btn:hover {
-    border: solid 4px white;
+    border: solid 4px silver;
 }
 
 .copyright {
     text-align: center;
     padding-top: 25px;
     font-style: italic;
+    padding-bottom: 5px;
 }
 
 
+.other-topics {
+    font-size: 18px;
+}
 
-
+select { 
+    padding-left: 10px; 
+}
 
 
 /* media queries  */
