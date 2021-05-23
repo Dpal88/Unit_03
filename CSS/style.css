@@ -103,7 +103,7 @@ textarea:focus {
 
 
 #zip {
-    width: 40%;
+    width: 50%;
 }
 
 ::placeholder {
@@ -162,7 +162,7 @@ textarea::placeholder {
     padding-top: 25px;
     padding-bottom: 25px;
     border-radius: 6px;
-    border: solid 2px #6a5acd;
+    border: solid 2px black;
     background-color: #6a5acd;
     font-size: 2rem;
     font-weight: 900;
@@ -189,6 +189,11 @@ textarea::placeholder {
 select { 
     padding-left: 10px; 
 }
+
+.newsletter-section {
+    background-color: #5f9ea0;
+}
+
 
 
 /* media queries  */
